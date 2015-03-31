@@ -1,6 +1,8 @@
 set background=dark
 
-colorscheme jellybeans
+colorscheme molokai
+let g:molokai_original = 1
+
 "
 "let g:solarized_termcolors=256
 "if has ('gui_running')
