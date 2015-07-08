@@ -3,10 +3,6 @@ map <C-up> :tabe<CR>
 map <C-left> :tabp<CR>
 map <C-right> :tabn<CR>
 
-" Different ESC
-inoremap jk <esc>
-inoremap kj <esc>
-
 "turn highlight off and of via F3
 nmap <F3> :nohlsearch<CR>
 imap <F3> <C-O>:nohlsearch<CR>
