@@ -28,13 +28,13 @@ Plugin 'bling/vim-airline'
 Plugin 'mileszs/ack.vim'
 
 " Jellybeans theme
-Plugin 'nanotech/jellybeans.vim'
+" Plugin 'nanotech/jellybeans.vim'
 
 " solarized if you want it
 " Plugin 'altercation/vim-colors-solarized'
 
 " Muon (blue theme"
-Plugin 'gregsexton/Muon'
+" Plugin 'gregsexton/Muon'
 
 " Molokai theme
 Plugin 'tomasr/molokai'
@@ -46,10 +46,10 @@ Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'kien/ctrlp.vim'
 
 " Autocompletion for everything
-Plugin 'Valloric/YouCompleteMe'
+" Plugin 'Valloric/YouCompleteMe'
 
-" Sucks that TCM no longer works, so let's JEDI
-" Plugin 'davidhalter/jedi-vim'
+" Sucks that YCM no longer works, so let's JEDI
+Plugin 'davidhalter/jedi-vim'
 
 " Snippets
 " Plugin 'msanders/snipmate.vim'
@@ -57,10 +57,10 @@ Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
 
 " Live syntax checker
-Plugin 'scrooloose/syntastic'
+" Plugin 'scrooloose/syntastic'
 
 " Rust syntax
 " Plugin 'wting/rust.vim'
 
 " Taglists
-Plugin 'vim-scripts/taglist.vim'
+" Plugin 'vim-scripts/taglist.vim'

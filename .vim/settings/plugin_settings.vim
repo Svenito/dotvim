@@ -2,14 +2,14 @@ let g:indent_guides_start_level = 2
 let g:indent_guides_guide_size = 1
 
 " Trust all the configs it finds
-let g:ycm_confirm_extra_conf = 0
+"let g:ycm_confirm_extra_conf = 0
 
 " No preview window
-set completeopt-=preview
-let g:ycm_auto_trigger = 0
-let g:ycm_add_preview_to_completeopt = 1
-let g:ycm_autoclose_preview_window_after_completion = 1
-let g:ycm_path_to_python_interpreter = '/usr/local/bin/python'
+"set completeopt-=preview
+"let g:ycm_auto_trigger = 0
+"let g:ycm_add_preview_to_completeopt = 1
+"let g:ycm_autoclose_preview_window_after_completion = 1
+"let g:ycm_path_to_python_interpreter = '/usr/local/bin/python'
 
 " Jedi
 " let g:jedi#use_splits_not_buffers = "left"
@@ -17,6 +17,9 @@ let g:ycm_path_to_python_interpreter = '/usr/local/bin/python'
 " Airline
 " Enable airline powerline symbols
 let g:airline_powerline_fonts = 1
+
+" Syntastic
+
 
 " patched font fix
 if !exists('g:airline_symbols')
@@ -29,10 +32,6 @@ let g:airline_theme='murmur'
 
 " Always show Airline
 set laststatus=2
-
-" Fonts I swap between sometimes
-" set guifont=DejaVu\ Sans\ Mono\ for\ Powerline\ 9
-set guifont=Inconsolata\ for\ Powerline\ 11
 
 
 " mutliple vim wikis
