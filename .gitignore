@@ -1,0 +1,7 @@
+.vim/bundle
+.vim/autoload
+.vim/colors
+.vim/doc
+.vim/plugin
+.vim/ftplugin
+
