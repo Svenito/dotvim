@@ -53,11 +53,11 @@ Plugin 'davidhalter/jedi-vim'
 
 " Snippets
 " Plugin 'msanders/snipmate.vim'
-Plugin 'SirVer/ultisnips'
+" Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
 
 " Live syntax checker
-" Plugin 'scrooloose/syntastic'
+Plugin 'scrooloose/syntastic'
 
 " Rust syntax
 " Plugin 'wting/rust.vim'
