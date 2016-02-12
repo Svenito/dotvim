@@ -56,6 +56,8 @@ let &hlsearch=1
 
 set nowrap
 
+autocmd Filetype gitcommit setlocal spell textwidth=72
+
 augroup vimrc_autocmds
     autocmd!
     autocmd FileType python highlight Excess ctermbg=DarkGrey guibg=Black

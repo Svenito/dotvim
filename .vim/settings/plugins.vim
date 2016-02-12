@@ -9,7 +9,7 @@ Plugin 'gmarik/vundle'
 " My bundles
 
 " Wiki
-Plugin 'vimwiki/vimwiki'
+" Plugin 'vimwiki/vimwiki'
 
 " tiled view manager
 Plugin 'spolu/dwm.vim'
@@ -27,6 +27,10 @@ Plugin 'bling/vim-airline'
 " ack
 Plugin 'mileszs/ack.vim'
 
+" Brace matcher
+Plugin 'arnar/vim-matchopen'
+
+Plugin 'vim-airline/vim-airline-themes'
 " Jellybeans theme
 " Plugin 'nanotech/jellybeans.vim'
 
@@ -53,8 +57,8 @@ Plugin 'davidhalter/jedi-vim'
 
 " Snippets
 " Plugin 'msanders/snipmate.vim'
-" Plugin 'SirVer/ultisnips'
-Plugin 'honza/vim-snippets'
+Plugin 'SirVer/ultisnips'
+"lugin 'honza/vim-snippets'
 
 " Live syntax checker
 Plugin 'scrooloose/syntastic'
@@ -64,3 +68,6 @@ Plugin 'scrooloose/syntastic'
 
 " Taglists
 " Plugin 'vim-scripts/taglist.vim'
+
+" Go
+Plugin 'fatih/vim-go'

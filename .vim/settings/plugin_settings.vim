@@ -17,7 +17,7 @@ let g:indent_guides_guide_size = 1
 " Airline
 " Enable airline powerline symbols
 let g:airline_powerline_fonts = 1
-let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#enabled = 0
 
 " Syntastic
 set statusline+=%#warningmsg#
@@ -28,6 +28,7 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 0
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+let g:syntastic_cpp_checkers = ['']
 
 " patched font fix
 if !exists('g:airline_symbols')
@@ -48,8 +49,8 @@ let g:vimwiki_list = [{'path': '~/vimwiki/', 'path_html': '~/vimwiki_html/'},
                     \ {'path': '~/SpiderOak\ Hive/vimwiki/', 'path_html': '~/SpiderOak\ Hive/vimiki_html'}]
 
 " snippet path
-" let g:UltiSnipsSnippetDirectories='~/.vim/settings/snippets'
-" let g:snippets_dir = '~/.vim/settings/snippets'
+let g:UltiSnipsSnippetDirectories=[$HOME.'/.vim/bundle/vim-snippets/UltiSnips']
+"let g:snippets_dir = '~/.vim/settings/snippets'
 let g:UltiSnipsExpandTrigger="<c-j>"
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"

@@ -8,15 +8,15 @@ nmap <F3> :nohlsearch<CR>
 imap <F3> <C-O>:nohlsearch<CR>
 
 " Taglist toggle
-nmap <F5> :TlistToggle<CR>
-imap <F5> <C-O>:TlistToggle<CR>
+" nmap <F5> :TlistToggle<CR>
+" imap <F5> <C-O>:TlistToggle<CR>
 
 " Set paste modes
 " nmap <F10> :set paste<CR>
 " nmap <F11> :set nopaste<CR>
 " imap <F10> <C-O>:set paste<CR>
 " set pastetoggle=<F11>
-" map <F2> :NERDTreeToggle<CR>
+map <F2> :NERDTreeToggle<CR>
 " 
 " nmap <A-]> :vsp <CR>:exec("tag ".expand("<cword>"))<CR>
 

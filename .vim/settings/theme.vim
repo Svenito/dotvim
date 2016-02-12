@@ -6,7 +6,7 @@ let g:molokai_original = 1
 " Fonts I swap between sometimes
 " set guifont=DejaVu\ Sans\ Mono\ for\ Powerline\ 9
 " set guifont=Inconsolata\ for\ Powerline\ 11
-set guifont=Hack\ 8
+set guifont=Hack\ 9
 
 
 "
