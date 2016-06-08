@@ -1,6 +1,10 @@
 let g:indent_guides_start_level = 2
 let g:indent_guides_guide_size = 1
 
+let g:pymode_lint_message = 0
+let g:pymode_lint_ignore = "E501,E231,E261,W"
+let g:pymode_lint_cwindow = 0
+set completeopt=menu,noinsert
 " Trust all the configs it finds
 "let g:ycm_confirm_extra_conf = 0
 
@@ -47,6 +51,8 @@ set laststatus=2
 let g:vimwiki_list = [{'path': '~/vimwiki/', 'path_html': '~/vimwiki_html/'},
                     \ {'path': '~/public_wiki/', 'path_html': '~/public_wiki_html'},
                     \ {'path': '~/SpiderOak\ Hive/vimwiki/', 'path_html': '~/SpiderOak\ Hive/vimiki_html'}]
+
+" let g:vimwiki-option-syntax = markdown
 
 " snippet path
 let g:UltiSnipsSnippetDirectories=[$HOME.'/.vim/bundle/vim-snippets/UltiSnips']

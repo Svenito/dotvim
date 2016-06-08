@@ -9,10 +9,10 @@ Plugin 'gmarik/vundle'
 " My bundles
 
 " Wiki
-" Plugin 'vimwiki/vimwiki'
+Plugin 'vimwiki/vimwiki'
 
 " tiled view manager
-Plugin 'spolu/dwm.vim'
+" Plugin 'spolu/dwm.vim'
 
 " Nice file browser
 Plugin 'scrooloose/nerdtree'
@@ -42,7 +42,7 @@ Plugin 'vim-airline/vim-airline-themes'
 
 " Molokai theme
 Plugin 'tomasr/molokai'
-
+Plugin 'dracula/vim'
 " Indentation guides.
 Plugin 'nathanaelkane/vim-indent-guides'
 
@@ -53,7 +53,10 @@ Plugin 'kien/ctrlp.vim'
 " Plugin 'Valloric/YouCompleteMe'
 
 " Sucks that YCM no longer works, so let's JEDI
-Plugin 'davidhalter/jedi-vim'
+" Plugin 'davidhalter/jedi-vim'
+
+" Python mode (Try out)
+" Plugin 'klen/python-mode'
 
 " Snippets
 " Plugin 'msanders/snipmate.vim'
@@ -61,7 +64,7 @@ Plugin 'SirVer/ultisnips'
 "lugin 'honza/vim-snippets'
 
 " Live syntax checker
-Plugin 'scrooloose/syntastic'
+" Plugin 'scrooloose/syntastic'
 
 " Rust syntax
 " Plugin 'wting/rust.vim'

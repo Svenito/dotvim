@@ -1,6 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
-let g:netrw_dirhist_1='/mill3d/users/sven/.mutt'
-let g:netrw_dirhist_2='/mill3d/users/sven/stuff/dotfiles/.mutt/mutt-colors-solarized'
-let g:netrw_dirhist_3='/mill3d/users/sven/.conky'
-let g:netrw_dirhist_4='/mill3d/users/sven/downs'
