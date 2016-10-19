@@ -56,6 +56,8 @@ let &hlsearch=1
 
 set nowrap
 
+let g:netrw_banner = 0
+
 autocmd Filetype gitcommit setlocal spell textwidth=72
 
 augroup vimrc_autocmds

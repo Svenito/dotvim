@@ -15,10 +15,10 @@ Plugin 'vimwiki/vimwiki'
 " Plugin 'spolu/dwm.vim'
 
 " Nice file browser
-Plugin 'scrooloose/nerdtree'
+" Plugin 'scrooloose/nerdtree'
 
 " Git integration
-Plugin 'tpope/vim-fugitive'
+" Plugin 'tpope/vim-fugitive'
 
 " Powerline/Airline
 " Plugin 'Lokaltog/vim-powerline' 
@@ -60,7 +60,7 @@ Plugin 'kien/ctrlp.vim'
 
 " Snippets
 " Plugin 'msanders/snipmate.vim'
-Plugin 'SirVer/ultisnips'
+" Plugin 'SirVer/ultisnips'
 "lugin 'honza/vim-snippets'
 
 " Live syntax checker
@@ -73,4 +73,4 @@ Plugin 'SirVer/ultisnips'
 " Plugin 'vim-scripts/taglist.vim'
 
 " Go
-Plugin 'fatih/vim-go'
+" Plugin 'fatih/vim-go'
